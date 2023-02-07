@@ -1,0 +1,1 @@
+puts "hi there".upcase.reverse.downcase

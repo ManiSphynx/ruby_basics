@@ -1,0 +1,7 @@
+p ['1', '2', '3'].map(&:to_i)
+p [1, 2, 3].map(&:to_s)
+p [1, 2, 3].select(&:even?)
+p [1, 2, 3].select(&:odd?)
+p [1, 2, 3].reject(&:odd?)
+p [1, 2, 3].reject(&:even?)
+p [1, 2, 3].reduce(0, :+)
